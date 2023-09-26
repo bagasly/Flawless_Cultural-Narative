@@ -1,0 +1,47 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg);
+    color: #010101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.masuk-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.masuk-container h1 {
+    text-align: center;
+}
+
+.masuk-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.masuk-form label {
+    margin-bottom: 5px;
+}
+
+.masuk-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.masuk-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
